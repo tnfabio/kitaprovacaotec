@@ -26,7 +26,7 @@ Outros ajustes:
 - **Preço atual:** use Localizar e substituir (Ctrl+H) para trocar `27,00` em todo o arquivo. Mude também na Kiwify.
 - **Relógio do topo:** procure `var LIMITE = 17 * 60` e troque o `17` pelos minutos desejados.
 - **Data da prova:** procure `new Date(2026, 10, 1)`. O mês começa em zero, então `10` é novembro.
-- **Imagem do kit:** substitua `mockup-kit-azul.jpg` por outra com o mesmo nome (1600 × 1000 px).
+- **Imagem do kit:** substitua `mockup-kit-capas.jpg` por outra com o mesmo nome (1600 × 1000 px).
 - **Depoimentos:** há um bloco desligado, marcado com `DEPOIMENTOS`. Só ligue com depoimentos reais e autorizados.
 
 ## Voltar a uma versão anterior
@@ -46,6 +46,6 @@ git checkout v1.0 -- index.html
 ## Arquivos
 
 - `index.html`: a página inteira (texto, visual e comportamento).
-- `mockup-kit-azul.jpg`: imagem do kit no topo da página.
+- `mockup-kit-capas.jpg`: imagem do kit no topo da página.
 - `publicar.bat`: publica as mudanças.
-- `mockup-kit.png` e `mockup-kit-landing-azul.png`: originais em alta resolução. Ficam só neste computador.
+- `mockup-kit.png`, `mockup-kit-landing-azul.png` e `mockup-kit-capas.png`: originais em alta resolução. Ficam só neste computador.

@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kit Aprovação — Técnico em Enfermagem SES-TO | Reta Final</title>
-<meta name="description" content="5 simulados padrão FGV, checklist do edital, resumão de véspera e plano de estudos para organizar sua reta final até a prova da SES-TO, em 1º de novembro. R$ 27,00.">
+<meta name="description" content="5 simulados padrão FGV, resumão de véspera e plano de estudos para organizar sua reta final até a prova da SES-TO, em 1º de novembro. R$ 27,00.">
 <!-- Oferta com data: fica fora do Google de propósito. -->
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#0B3B37">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Kit Aprovação — Técnico em Enfermagem SES-TO | Reta Final">
-<meta property="og:description" content="5 simulados padrão FGV + checklist do edital + resumão de véspera + plano de estudos. Organize sua reta final até 1º de novembro.">
+<meta property="og:description" content="5 simulados padrão FGV + resumão de véspera + plano de estudos. Organize sua reta final até 1º de novembro.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F766E'/%3E%3Cpath d='M19 34l9 9 17-21' fill='none' stroke='%23fff' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -232,7 +232,6 @@ a { color: inherit; }
   border: 1px solid var(--line); font-size: 0.875rem; line-height: 1.25rem; font-weight: 600;
 }
 .chips .ic { font-size: 1rem; color: var(--primary); }
-.chips i { width: 12px; height: 12px; border-radius: 2px; border: 1px solid var(--ink-soft); }
 .kit__msg {
   margin-top: auto; padding: 12px 16px; border-radius: 8px;
   background: var(--bg-alt); color: var(--ink) !important; font-weight: 700;
@@ -366,12 +365,15 @@ a { color: inherit; }
   .pillars { grid-template-columns: repeat(5, 1fr); }
   .pillars li:last-child { grid-column: auto; }
   .kit { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .kit__item:first-child { grid-column: 1 / -1; }
   .offer { padding: 48px; }
   .footer { padding-block: 32px; }
   .sticky { display: none; }
 }
 @media (min-width: 1024px) {
   .hero__grid { grid-template-columns: 1fr 1fr; gap: 48px; }
+  .kit { grid-template-columns: repeat(3, 1fr); }
+  .kit__item:first-child { grid-column: auto; }
   .final h2 { font-size: 3rem; line-height: 1; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -443,7 +445,7 @@ a { color: inherit; }
             <span class="hero__kicker">TÉCNICO EM ENFERMAGEM:</span>
             <span class="hero__title">SUA RETA FINAL COMEÇA AGORA!</span>
           </h1>
-          <p class="lead hero__sub">Organize sua preparação até a prova da <strong><span class="nb">SES-TO</span>, em 1º&nbsp;de&nbsp;novembro</strong>, com simulados, checklist do edital, resumão de véspera e um plano de estudos completo.</p>
+          <p class="lead hero__sub">Organize sua preparação até a prova da <strong><span class="nb">SES-TO</span>, em 1º&nbsp;de&nbsp;novembro</strong>, com simulados, resumão de véspera e um plano de estudos completo.</p>
           <div class="buy">
             <div>
               <p class="price__from" data-de-por hidden>De <s>R$&nbsp;<span data-preco-cheio></span></s> por apenas</p>
@@ -454,7 +456,7 @@ a { color: inherit; }
             </div>
             <a class="btn btn--block" href="#oferta" data-checkout>Quero meu Kit Aprovação <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
           </div>
-          <p class="hero__bundle">5 Simulados + Checklist + Resumão + Plano de estudos</p>
+          <p class="hero__bundle">5 Simulados + Resumão + Plano de estudos</p>
           <ul class="assure">
             <li><svg class="ic" aria-hidden="true"><use href="#i-lock"/></svg>Pagamento pela Kiwify</li>
             <li><svg class="ic" aria-hidden="true"><use href="#i-seal"/></svg>Garantia de 7 dias</li>
@@ -462,8 +464,8 @@ a { color: inherit; }
           </ul>
         </div>
 
-        <img class="mock" src="mockup-kit-azul.jpg" width="1600" height="1000" fetchpriority="high" decoding="async"
-             alt="Materiais do kit em um tablet, um celular e páginas impressas: caderno de simulado de Técnico em Enfermagem, questões no padrão FGV, cartão de respostas e resumão de véspera">
+        <img class="mock" src="mockup-kit-capas.jpg" width="1600" height="1000" fetchpriority="high" decoding="async"
+             alt="Materiais do kit: páginas impressas de simulado e resumão, tablet com a capa dos 5 simulados no padrão da FGV, celular com a capa do resumão de véspera e a capa do plano de 30 dias">
       </div>
 
       <ul class="facts reveal">
@@ -538,7 +540,7 @@ a { color: inherit; }
     <div class="container">
       <div class="narrow center stack reveal">
         <h2 class="h2">O que você recebe</h2>
-        <p class="lead">Quatro materiais para estudar, revisar e treinar até o dia da prova.</p>
+        <p class="lead">Três materiais para estudar, revisar e treinar até o dia da prova.</p>
       </div>
       <div class="kit">
         <article class="card kit__item reveal">
@@ -557,32 +559,17 @@ a { color: inherit; }
 
         <article class="card kit__item reveal" style="--d:120ms">
           <div class="kit__top">
-            <span class="kit__icon"><svg class="ic" aria-hidden="true"><use href="#i-clipboard"/></svg></span>
-            <div><p class="kit__n">02</p><h3>CHECKLIST DO EDITAL</h3></div>
-          </div>
-          <p>Transforme o edital em uma lista prática de acompanhamento. Para cada assunto, você marca:</p>
-          <ul class="chips">
-            <li><i></i>Estudei</li>
-            <li><i></i>Revisei</li>
-            <li><i></i>Fiz questões</li>
-            <li><i></i>Preciso revisar</li>
-          </ul>
-          <p class="kit__msg">Saiba exatamente o que já foi estudado e o que ainda precisa de atenção.</p>
-        </article>
-
-        <article class="card kit__item reveal">
-          <div class="kit__top">
             <span class="kit__icon"><svg class="ic" aria-hidden="true"><use href="#i-lightning"/></svg></span>
-            <div><p class="kit__n">03</p><h3>RESUMÃO DE VÉSPERA</h3></div>
+            <div><p class="kit__n">02</p><h3>RESUMÃO DE VÉSPERA</h3></div>
           </div>
           <p>Material de revisão rápida para os últimos dias antes da prova.</p>
           <p class="kit__msg">Revise os principais pontos sem precisar ficar procurando informações em vários materiais diferentes.</p>
         </article>
 
-        <article class="card kit__item reveal" style="--d:120ms">
+        <article class="card kit__item reveal" style="--d:240ms">
           <div class="kit__top">
             <span class="kit__icon"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg></span>
-            <div><p class="kit__n">04</p><h3>PLANO DE ESTUDOS&nbsp;— RETA FINAL</h3></div>
+            <div><p class="kit__n">03</p><h3>PLANO DE ESTUDOS&nbsp;— RETA FINAL</h3></div>
           </div>
           <p>Um roteiro dia a dia para organizar sua reta final até 1º&nbsp;de&nbsp;novembro, distribuindo:</p>
           <ul class="chips">
@@ -644,7 +631,6 @@ a { color: inherit; }
         </div>
         <ul class="list">
           <li><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>5 Simulados&nbsp;— padrão FGV</li>
-          <li><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>Checklist do edital</li>
           <li><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>Resumão de véspera</li>
           <li><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>Plano de estudos da reta final</li>
         </ul>
@@ -652,7 +638,7 @@ a { color: inherit; }
           <p class="price__from" data-de-por hidden>De <s>R$&nbsp;<span data-preco-cheio></span></s> por apenas</p>
           <p class="price"><span class="price__cur">R$</span><span class="price__val" data-preco>27,00</span></p>
           <p class="offer__once">À vista ou <span data-parcelas>parcelado</span> no cartão. Pagamento único.</p>
-          <p class="offer__anchor" data-so-na-oferta>Menos de R$ 6 por simulado. O checklist, o resumão e o plano vão junto.</p>
+          <p class="offer__anchor" data-so-na-oferta>Menos de R$ 6 por simulado. O resumão e o plano vão junto.</p>
         </div>
         <a class="btn btn--block" href="#oferta" data-checkout>Quero meu Kit Aprovação <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <ul class="assure">
@@ -707,7 +693,7 @@ a { color: inherit; }
         <!-- CONFERIR: só vale se os arquivos forem entregues em PDF -->
         <details>
           <summary>Os arquivos são em PDF? Posso imprimir?</summary>
-          <p>Sim. Os quatro materiais são arquivos em PDF. Você pode estudar pelo celular, pelo computador ou imprimir.</p>
+          <p>Sim. Os três materiais são arquivos em PDF. Você pode estudar pelo celular, pelo computador ou imprimir.</p>
         </details>
         <details>
           <summary><span>O conteúdo segue o edital da <span class="nb">SES-TO</span>?</span></summary>
@@ -719,7 +705,7 @@ a { color: inherit; }
         </details>
         <details>
           <summary>Faltam poucos dias para a prova. Ainda vale a pena?</summary>
-          <p>Vale. Comece pelo checklist para ver o que falta, faça os simulados para treinar e deixe o resumão para a última semana.</p>
+          <p>Vale. Comece pelo plano de estudos para organizar os dias que faltam, faça os simulados para treinar e deixe o resumão para a última semana.</p>
         </details>
         <details>
           <summary>E se eu não gostar?</summary>
